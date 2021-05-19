@@ -1,0 +1,12 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>NH</ShortName>
+  <Description>NHentai Search</Description>
+  <InputEncoding>[UTF-8]</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://nhentai.net/favicon.ico</Image>
+  <Url type="text/html" template="https://nhentai.net/search/">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  <Url type="application/x-suggestions+json" template="https://nhentai.net"/>
+  <moz:SearchForm>[https://nhentai.net/search]</moz:SearchForm>
+</OpenSearchDescription>
